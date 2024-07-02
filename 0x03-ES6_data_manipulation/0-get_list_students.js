@@ -3,6 +3,6 @@ const obj = [{ id: 1, firstName: 'Guillaume', location: 'San Francisco' },
   { id: 5, firstName: 'Serena', location: 'San Francisco' },
 ];
 
-export default function getListStudents(id, firstName, location) {
-  console.log(obj);
+export default function getListStudents() {
+  return obj;
 }
